@@ -1,8 +1,14 @@
 {
   "name": "Spring Boot Dev",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21"
+    },
+    "ghcr.io/devcontainers/features/maven:1": {
+      "version": "3.9"
+    }
   },
   "customizations": {
     "vscode": {
